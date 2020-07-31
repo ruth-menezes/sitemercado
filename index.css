@@ -1,0 +1,128 @@
+/* corpo da página */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #fff;
+}
+
+/* barra de navegação */
+.nav {
+  width: 100%;
+
+  left: 0;
+  top: 0px;
+
+  margin: 0 auto;
+  margin-bottom:500px;
+  position: absolute;
+  border-bottom: 1px solid #36b336; /* bordinha de baixo do menu */
+
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+
+.logo {
+  position: absolute;
+  margin-top: 10px;
+  left: 200px;
+  font-weight: bold;
+  font-size: 32px;
+  color: rgb(27, 137, 58);
+}
+
+/* a caixa de pesquisa */
+.nav input {
+  /* centralizando */
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 215px;
+  height: 50px;
+  text-align: center;
+
+  border: solid 1px gray;
+  border-radius: 10px;
+}
+
+/* o ícone do usuário à direita da barra de navegação */
+.nav-direita {
+  float: right;
+  margin-right: 200px;
+}
+
+
+
+/* categorias de venda */
+.container-categorias {
+  position: absolute;
+  box-sizing: border-box;
+  top: 76px;
+  width: 100%;
+  left: 0;
+  height: 180px;
+  
+
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  border-bottom: 1px solid #36b336;
+
+  display: flex;
+  justify-content: center;
+}
+
+.container-categorias div {
+  margin: 10px;
+  text-align: center;
+}
+
+.container-categorias img {
+  width: 100px;
+  height: 100px;
+  border: solid 1px #000;
+  border-radius: 50%;
+}
+
+.container-categorias a {
+  text-decoration: none;
+  font-size: 18px;
+  color : #000;
+}
+
+
+
+
+.ofertas {
+  padding-top: 245px;
+  margin-bottom: 10px;
+  left: 0;
+  font-weight: bolder;
+  font-size: 24px;
+  color: rgb(27, 137, 58);
+  text-align: center;
+  border-bottom: 1px solid #36b336;
+}
+
+.container-ofertas {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.linha {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.container-ofertas img {
+  width: 30%;
+  height: 30%;
+  margin: 10px;
+}
